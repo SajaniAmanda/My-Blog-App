@@ -8,10 +8,14 @@ import { AngularMaterialModule } from './angularMaterialModule';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import { CreatePostComponent } from './pages/create-post/create-post.component';
+// import { RouterModule } from '@angular/router';
+
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        CreatePostComponent
     ],
     imports: [
         BrowserModule,
@@ -20,10 +24,10 @@ import { AppRoutingModule } from './app-routing.module';
         ReactiveFormsModule,
         FormsModule,
         HttpClientModule,
-        AppRoutingModule,
-       
+        AppRoutingModule
     ],
     providers: [],
     bootstrap: [AppComponent]
 })
 export class AppModule { }
+

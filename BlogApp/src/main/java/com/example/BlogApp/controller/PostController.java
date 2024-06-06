@@ -17,6 +17,7 @@ public class PostController {
     @Autowired
     private PostService postService;
 
+    // Our endpoint
     @PostMapping
     public ResponseEntity<?> createPost(@RequestBody Post post){
         try{

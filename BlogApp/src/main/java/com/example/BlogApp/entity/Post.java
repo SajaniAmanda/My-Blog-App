@@ -3,7 +3,6 @@ package com.example.BlogApp.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import javax.swing.*;
 import java.util.Date;
 import java.util.List;
 

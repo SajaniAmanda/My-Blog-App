@@ -1,7 +1,7 @@
 import {
   DOCUMENT,
   isPlatformBrowser
-} from "./chunk-HJNB2FEQ.js";
+} from "./chunk-MOI5FBZF.js";
 import {
   ANIMATION_MODULE_TYPE,
   APP_ID,
@@ -316,6 +316,7 @@ var LEFT_ARROW = 37;
 var UP_ARROW = 38;
 var RIGHT_ARROW = 39;
 var DOWN_ARROW = 40;
+var DELETE = 46;
 var ZERO = 48;
 var NINE = 57;
 var A = 65;
@@ -5194,6 +5195,7 @@ export {
   _getEventTarget,
   _isTestEnvironment,
   BACKSPACE,
+  TAB,
   ENTER,
   ESCAPE,
   SPACE,
@@ -5205,6 +5207,7 @@ export {
   UP_ARROW,
   RIGHT_ARROW,
   DOWN_ARROW,
+  DELETE,
   A,
   hasModifierKey,
   coerceBooleanProperty,
@@ -5280,4 +5283,4 @@ export {
   MatRippleLoader,
   _MatInternalFormField
 };
-//# sourceMappingURL=chunk-TJEHHRLA.js.map
+//# sourceMappingURL=chunk-HELIS6G3.js.map

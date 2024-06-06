@@ -16,7 +16,7 @@ public class PostServiceImpl implements PostService{
     public Post savePost(Post post){
         post.setLikeCount(0);
         post.setViewCount(0);
-        post.setDate(new Date());
+        post.setDate(new Date()); //current date
 
         return postRepository.save(post);
     }

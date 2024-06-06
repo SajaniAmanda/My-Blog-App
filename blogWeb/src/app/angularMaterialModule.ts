@@ -1,5 +1,3 @@
-// src/app/angularMaterialModule.ts
-
 import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -19,6 +17,9 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatMenuModule } from '@angular/material/menu';
+import {MatChipsModule} from '@angular/material/chips';
+
+
 @NgModule({
   imports: [
     MatButtonModule,
@@ -38,7 +39,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatSelectModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatMenuModule
+    MatMenuModule,
+    MatChipsModule
   ],
   exports: [
     MatButtonModule,
@@ -58,7 +60,9 @@ import { MatMenuModule } from '@angular/material/menu';
     MatSelectModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatMenuModule
+    MatMenuModule,
+    MatChipsModule
   ]
 })
 export class AngularMaterialModule {}
+
